@@ -4,6 +4,6 @@ const btn = document.getElementById("incrementBtn");
 let count = 0;
 incrementBtn.addEventListener("click", ()=>{
 
-	para.innerText = count++;
+	para.innerText = ++count;
 	alert("un-incremented value");
 })
