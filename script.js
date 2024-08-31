@@ -5,5 +5,5 @@ let count = 0;
 incrementBtn.addEventListener("click", ()=>{
 
 	para.innerText = ++count;
-	alert("un-incremented value");
+	alert(count);
 })
